@@ -1,0 +1,7 @@
+keys:
+  - &primary age1aqej5a9e39rwkyj652s6d3pd4478mvm2l7xjduq8cxx7270keqvsdkmna0
+creation_rules:
+  - path_regex: accounts.yaml$
+    key_groups:
+    - age:
+      - *primary
